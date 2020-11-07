@@ -15,7 +15,7 @@ class UserProfileManager(BaseUserManager):
         email = self.normalize_email(email)
         user = self.model(email=email, name=name) 
 
-ddref
+jembt = "ddde"
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
     """Database model untuk users"""
